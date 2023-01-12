@@ -1,0 +1,97 @@
+Inital State: (4 , 1)
+Goal State: (0 , 1)
+Seaching strategy: BFS
+Path:(4, 1)(0, 1)
+Action:Dump1 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (4 , 0)
+Seaching strategy: BFS
+Path:(4, 1)(4, 0)
+Action:Dump2 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (5 , 0)
+Seaching strategy: BFS
+Path:(4, 1)(5, 0)
+Action:Pour2 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (3 , 2)
+Seaching strategy: BFS
+Path:(4, 1)(3, 2)
+Action:Pour1 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (1 , 2)
+Seaching strategy: BFS
+Path:(4, 1)(3, 2)(3, 0)(1, 2)
+Action:Pour1 Dump2 Pour1 
+Cost: 3
+
+Inital State: (4 , 1)
+Goal State: (0 , 1)
+Seaching strategy: DFS
+DFS taking too long to find to find (0, 1)
+
+Inital State: (4 , 1)
+Goal State: (4 , 0)
+Seaching strategy: DFS
+Path:(4, 1)(4, 0)
+Action:Dump2 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (5 , 0)
+Seaching strategy: DFS
+DFS taking too long to find (5, 0)
+
+Inital State: (4 , 1)
+Goal State: (3 , 2)
+Seaching strategy: DFS
+DFS taking too long to find (3, 2)
+
+Inital State: (4 , 1)
+Goal State: (1 , 2)
+Seaching strategy: DFS
+DFS taking too long to find (1, 2)
+
+Inital State: (4 , 1)
+Goal State: (0 , 1)
+Seaching strategy: A *
+Path:(4, 1)(0, 1)
+Action:Dump1 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (4 , 0)
+Seaching strategy: A *
+Path:(4, 1)(4, 0)
+Action:Dump2 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (5 , 0)
+Seaching strategy: A *
+Path:(4, 1)(5, 0)
+Action:Pour2 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (3 , 2)
+Seaching strategy: A *
+Path:(4, 1)(3, 2)
+Action:Pour1 
+Cost: 1
+
+Inital State: (4 , 1)
+Goal State: (1 , 2)
+Seaching strategy: A *
+Path:(4, 1)(3, 2)(3, 0)(1, 2)
+Action:Pour1 Dump2 Pour1 
+Cost: 3
+
